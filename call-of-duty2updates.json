@@ -1,0 +1,10 @@
+[
+  {
+    "UpdateStageName": "Prepare manual game installation directory",
+    "UpdateSourcePlatform": "Windows",
+    "UpdateSource": "CreateDirectory",
+    "UpdateSourceArgs": "{{$FullBaseDir}}main",
+    "OverwriteExistingFiles": false,
+    "SkipOnFailure": false
+  }
+]

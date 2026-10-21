@@ -1,0 +1,33 @@
+[
+  {
+    "ConfigFile": "main/lancon.cfg",
+    "ConfigType": "kvp",
+    "ConfigFormat": "set {0} \"{1}\"",
+    "AutoMap": false,
+    "Subsections": [
+      {
+        "Heading": "$root",
+        "SettingMappings": {
+          "sv_hostname": "sv_hostname",
+          "sv_maxclients": "$MaxUsers",
+          "g_gametype": "g_gametype",
+          "sv_mapRotation": "sv_mapRotation",
+          "sv_mapRotationCurrent": "",
+          "g_password": "g_password",
+          "rcon_password": "",
+          "sv_punkbuster": "0",
+          "sv_pure": "1",
+          "sv_allowDownload": "0",
+          "sv_privateclients": "0",
+          "scr_friendlyfire": "0",
+          "scr_killcam": "1",
+          "scr_tdm_timelimit": "20",
+          "scr_tdm_scorelimit": "100",
+          "logfile": "1",
+          "g_log": "games_mp.log",
+          "g_logsync": "1"
+        }
+      }
+    ]
+  }
+]

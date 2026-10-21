@@ -1,0 +1,9 @@
+[
+  {
+    "Protocol": "UDP",
+    "Port": 28960,
+    "Ref": "GamePort",
+    "Name": "Game Port",
+    "Description": "CoD2 LAN game and browser/query traffic"
+  }
+]

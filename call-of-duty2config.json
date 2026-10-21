@@ -1,0 +1,65 @@
+[
+  {
+    "DisplayName": "Server Name",
+    "Category": "Call of Duty 2",
+    "Description": "LAN browser name. Use one line without double quotes or backslashes. Restart the server after changing settings.",
+    "FieldName": "sv_hostname",
+    "InputType": "text",
+    "ParamFieldName": "sv_hostname",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "LANCON CoD2",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Maximum Players",
+    "Category": "Call of Duty 2",
+    "Description": "Player slots (1-64). LANCON default: 32.",
+    "FieldName": "$MaxUsers",
+    "InputType": "number",
+    "MinValue": "1",
+    "MaxValue": "64",
+    "ParamFieldName": "sv_maxclients",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "32",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Game Mode",
+    "Category": "Call of Duty 2",
+    "Description": "Applies to every map in the rotation unless you explicitly add gametype tokens to Map Rotation. CoD2 uses tdm, not the newer CoD war identifier.",
+    "FieldName": "g_gametype",
+    "InputType": "enum",
+    "ParamFieldName": "g_gametype",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "tdm",
+    "EnumValues": {
+      "dm": "Deathmatch",
+      "tdm": "Team Deathmatch",
+      "sd": "Search and Destroy",
+      "ctf": "Capture the Flag",
+      "hq": "Headquarters"
+    }
+  },
+  {
+    "DisplayName": "Map Rotation",
+    "Category": "Call of Duty 2",
+    "Description": "Single-line CoD2 rotation, for example: map mp_toujane map mp_carentan. The first entry starts on launch. Use installed map identifiers only; no double quotes, backslashes, newlines or semicolons. Optional gametype tokens override Game Mode for subsequent maps.",
+    "FieldName": "sv_mapRotation",
+    "InputType": "text",
+    "ParamFieldName": "sv_mapRotation",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "map mp_toujane map mp_carentan map mp_burgundy map mp_dawnville",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Join Password",
+    "Category": "Call of Duty 2",
+    "Description": "Empty allows joining without a password. Use one line without double quotes, backslashes or semicolons. Stored in the instance's generated main/lancon.cfg; keep that file private.",
+    "FieldName": "g_password",
+    "InputType": "password",
+    "ParamFieldName": "g_password",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "",
+    "EnumValues": {}
+  }
+]
